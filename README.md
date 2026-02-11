@@ -366,19 +366,6 @@ def predict_default_risk(customer_data):
 4. **Explainability is non-negotiable** - Regulators demand transparency
 
 ---
-
-## 🏆 Interview Talking Points
-
-**"Tell me about a machine learning project you've worked on."**
-
-> *"I built an end-to-end credit risk prediction system using 307K loan applications from Home Credit. The challenge was severe class imbalance—only 8% default rate—and the need for interpretable predictions due to banking regulations.*
-> 
-> *I engineered 15+ domain-specific features like debt-to-income ratios and loan-to-value ratios based on banking risk principles. After comparing Logistic Regression, Random Forest, and XGBoost, I selected XGBoost as the production model, achieving 0.76 AUC and 75% recall in catching defaulters.*
-> 
-> *I handled the imbalance using XGBoost's scale_pos_weight parameter rather than SMOTE, as it performed better in cross-validation. For interpretability, I used feature importance analysis showing that external credit bureau scores contributed 20% of model decisions—this insight drove a recommendation to integrate with all three major credit bureaus.*
-> 
-> *The key business impact was optimizing the decision threshold at 0.45 rather than the default 0.5, which balanced false positives and false negatives based on actual financial costs. This would save an estimated $XXM annually in prevented defaults while maintaining acceptable approval rates."*
-
 ---
 
 ## 📖 Future Enhancements
@@ -410,10 +397,9 @@ This project is licensed under the MIT License - see [LICENSE](LICENSE) file for
 
 ## 📬 Contact
 
-**Your Name**  
-📧 your.email@example.com  
-🔗 [LinkedIn](https://linkedin.com/in/yourprofile)  
-💼 [Portfolio](https://yourportfolio.com)
+**Karan Kumar**  
+📧 karan.kumar021299@gmail.com 
+
 
 ---
 
