@@ -1,0 +1,93 @@
+# =============================================================================
+# Python Credit Risk Project - .gitignore
+# =============================================================================
+
+# Data files (too large for GitHub)
+*.csv
+*.xlsx
+*.xls
+data/
+raw_data/
+
+# Model files (large binary files)
+*.pkl
+*.h5
+*.hdf5
+models/*.pkl
+*.joblib
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+*.ipynb_checkpoints
+
+# Virtual Environment
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+*.log
+logs/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environment variables
+.env
+.env.local
+
+# Temporary files
+*.tmp
+*.temp
+tmp/
+temp/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# =============================================================================
+# What TO commit (keep these):
+# - Source code (.py files)
+# - Notebooks (.ipynb files)
+# - README.md
+# - requirements.txt
+# - LICENSE
+# - Small sample data (if < 1MB)
+# - Visualizations (.png, .jpg)
+# =============================================================================
