@@ -56,35 +56,16 @@ Matplotlib | Seaborn | imbalanced-learn | Jupyter Notebook
 ## 📁 Project Structure
 
 ```
-credit-default-risk-prediction/
-│
-├── data/
-│   ├── application_train.csv          # Training dataset (307K rows)
-│   └── application_test.csv           # Test dataset (48K rows)
+Home-credit-default-risk-prediction/
 │
 ├── notebooks/
-│   ├── 01_EDA_and_Data_Cleaning.ipynb
-│   ├── 02_Feature_Engineering.ipynb
-│   ├── 03_Model_Training.ipynb
-│   └── 04_Model_Evaluation.ipynb
+│   ├── Home Credit Default Risk.ipynb
 │
 ├── models/
 │   ├── xgboost_final.pkl              # Production model
 │   ├── scaler.pkl                     # Feature scaler
 │   ├── encoders.pkl                   # Categorical encoders
 │   └── feature_names.pkl              # Feature list
-│
-├── src/
-│   ├── preprocessing.py               # Data cleaning functions
-│   ├── feature_engineering.py         # Feature creation logic
-│   ├── model_training.py              # Model training pipeline
-│   └── model_evaluation.py            # Evaluation metrics
-│
-├── visualizations/
-│   ├── feature_importance.png
-│   ├── roc_curves.png
-│   └── confusion_matrix.png
-│
 ├── requirements.txt
 ├── README.md
 └── LICENSE
