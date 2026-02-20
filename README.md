@@ -349,16 +349,6 @@ def predict_default_risk(customer_data):
 ---
 ---
 
-## 📖 Future Enhancements
-
-- [x] **Cross-validation**: ✅ Implemented 5-fold stratified CV for robust performance estimation
-- [ ] **Hyperparameter tuning**: Bayesian optimization (Optuna/Hyperopt)
-- [ ] **Additional data**: Incorporate bureau data, previous applications (7 tables available)
-- [ ] **Ensemble methods**: Stack LR + RF + XGB for potential +1-2% AUC gain
-- [ ] **Model calibration**: Isotonic regression to ensure predicted probabilities match actual rates
-- [ ] **Time-based validation**: Train on 2016-2017, validate on 2018 (temporal split)
-- [ ] **Explainability**: Implement SHAP for individual prediction explanations
-- [ ] **A/B testing framework**: Shadow mode deployment with champion/challenger setup
 
 ---
 
